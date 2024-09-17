@@ -1,0 +1,11 @@
+@use '../../styles/variables' as *;
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: "Titillium Web";
+  color: $spend-red;
+  -webkit-text-fill-color: $pink; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $spend-red;
+}
