@@ -1,0 +1,20 @@
+.hero {
+  &__container {
+    background-image: url(../../assets/images/hero-background.png);
+    background-size: cover;
+    background-position: 0 30%;
+    height: 23vh;
+    width: 100%;
+    display: flex;
+  }
+  &__greeting {
+    font-family: "Jua", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: white;
+    margin: 0 1.75rem; 
+    align-self: center;
+    position: relative;
+    top: 1rem;
+  }
+}

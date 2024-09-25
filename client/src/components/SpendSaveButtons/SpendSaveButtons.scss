@@ -1,0 +1,23 @@
+@use '../../styles/variables' as *;
+
+.spend-save {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  &__button {
+    width: 6rem;
+    font-family: "Jua";
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    color: white;
+    padding: 0.15rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    &--save {
+      background-color: $spend-red;
+    }
+    &--spend {
+      background-color: $save-green;
+    }
+  }
+}

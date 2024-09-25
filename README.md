@@ -2,7 +2,7 @@
 
 ## Overview
 
-My Piggybank is an app geared towards preschoolers to begin teaching them what spending and saving money means. It's a way for them to visualize how much money goes in/out of their own piggybank and always keep track of how much is in there.
+My Piggybank is an app geared towards preschoolers and grade school children to begin teaching them what spending and saving money means. It's a fun way for them to visualize how much money goes in/out of their own piggybank and always keep track of how much is in there.
 
 ### Problem
 

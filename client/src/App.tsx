@@ -1,11 +1,10 @@
 import './App.scss'
-import Title from './components/Title/Title'
+import Hero from './components/Hero/Hero'
 
 function App() {
-
   return (
     <>
-      <Title/>
+      <Hero/>
     </>
   )
 }

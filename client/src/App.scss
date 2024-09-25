@@ -6,3 +6,21 @@ body {
   box-sizing: border-box;
   background-color: $background-color;
 }
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.piggy-img {
+  &--full-size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    flex: 1;
+  }
+}
