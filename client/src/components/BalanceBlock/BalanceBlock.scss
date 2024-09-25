@@ -1,0 +1,22 @@
+@use '../../styles/variables' as *;
+@use '../../styles/spacing' as *;
+@use '../../styles/mixins' as *;
+
+.balance {
+  @include content-block;
+  @include column-flex;
+  gap: 0.5rem;
+  &__heading {
+    font-family: "Jua", sans-serif;
+    font-size: 0.9375rem;
+    letter-spacing: 0.5px;
+    color: $text-grey;
+    margin: 0;
+  }
+  &__total {
+    font-family: "Jua", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    color: $accent-purple;
+  }
+}

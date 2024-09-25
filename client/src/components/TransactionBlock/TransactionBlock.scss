@@ -1,0 +1,15 @@
+@use '../../styles/variables' as *;
+@use '../../styles/spacing' as *;
+@use '../../styles/mixins' as *;
+
+.transaction {
+  @include content-block;
+  @include column-flex;
+  &__heading {
+    font-family: "Jua", sans-serif;
+    font-size: 0.9375rem;
+    letter-spacing: 0.5px;
+    color: $text-grey;
+    margin: 0;
+  }
+}

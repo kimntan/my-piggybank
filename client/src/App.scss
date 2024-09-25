@@ -1,4 +1,5 @@
 @use './styles/variables' as *;
+@use './styles/mixins' as *;
 
 body {
   margin: 0;
@@ -7,20 +8,10 @@ body {
   background-color: $background-color;
 }
 
-.container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 1rem 0;
-}
-
-.piggy-img {
-  &--full-size {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem 1rem;
-    flex: 1;
-  }
+.main {
+  position: relative;
+  top: -1.75rem;
+  @include column-flex;
+  gap: 1.5rem;
+  padding: 0 1.5rem;
 }
