@@ -1,0 +1,8 @@
+@use './variables' as *;
+
+@mixin jua-text {
+  font-family: "Jua", sans-serif;
+  font-size: 0.9375rem;
+  letter-spacing: 0.5px;
+  color: $text-grey;
+}
